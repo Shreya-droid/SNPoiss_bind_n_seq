@@ -104,7 +104,7 @@ Follow the recommended order below for accurate and reproducible analysis.
 
 ## 📦 Installation via PIP
 
-To install the PrOBEX package using **conda**, run:
+To install the PrOBEX package using **pip**, run:
 
 ```bash
-pip install PrOBEX
+pip install ProBEX-snp
