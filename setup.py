@@ -8,7 +8,6 @@ setup(
     description='A tool for SNP-based Poisson binding analysis on SNP-bind-n-seq sequencing data',
     license='MIT',
     url='https://github.com/Shreya-droid/SNPoiss_bind_n_seq',
-    py_modules=['run_all'],
     packages=find_packages(include=['ProBEX', 'ProBEX.*']),
     install_requires=['tensorflow'],
     entry_points={
