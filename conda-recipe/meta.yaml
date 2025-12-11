@@ -31,6 +31,7 @@ requirements:
 about:
   summary: "Runs a sequence of transcription factor analysis scripts"
   license: "MIT"
+  license_files: LICENSE
   home: "https://github.com/Shreya-droid/SNPoiss_bind_n_seq"
   author: "Shreya Sharma"
   description: |
