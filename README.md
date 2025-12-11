@@ -1,11 +1,11 @@
 # 🧬 PrOBEX: Probabilistic Optimization of Binding via Enrichment from SELEX
 
-**Article URL:** [https://doi.org/10.1038/](https://doi.org/10.1038/)
+**Article URL:** [https://doi.org/10.64898/2025.12.02.691900]
 
 ---
 
 ## 📊 Graphical Overview
-![Pipeline Overview](images/diagram.png)
+![Pipeline Overview](abstract/graph_abstract.png)
 
 ---
 
@@ -104,7 +104,7 @@ Follow the recommended order below for accurate and reproducible analysis.
 
 ## 📦 Installation via PIP
 
-To install the PrOBEX package using **pip**, run:
+To install the PrOBEX package using **conda**, run:
 
 ```bash
 pip install PrOBEX

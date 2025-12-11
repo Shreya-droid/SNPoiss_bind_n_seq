@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='snpoiss_bind_n_seq',
+    name='ProBEX',
     version='0.1.0',
     author='Shreya Sharma, PhD student @IITR',
     Author_email='shreya_s.iitr.ac.in',
@@ -13,7 +13,7 @@ setup(
     install_requires=['tensorflow'],
     entry_points={
         'console_scripts': [
-            'snpoiss_bind_n_seq = snpoiss_bind_n_seq.run_all:main',
+            'ProBEX = snpoiss_bind_n_seq.run_all:main',
         ],
     },
     include_package_data=True,
