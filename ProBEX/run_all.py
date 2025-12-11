@@ -109,4 +109,5 @@ def main():
         subprocess.run(["python", script_path], check=True)
 
 if __name__ == "__main__":
+    print("PrOBEX successfully installed! Add your pipeline logic here.")
     main()

@@ -1,0 +1,38 @@
+package:
+  name: snpoiss_bind_n_seq
+  version: "0.1.0"
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
+
+requirements:
+  host:
+    - python >=3.10
+    - pip >=25.0
+    - pandas ==2.2.3
+    - matplotlib ==3.10.0
+    - matplotlib-inline
+    - numpy ==1.26.4
+    - seaborn ==0.13.2
+    - wheel
+
+  run:
+    - python >=3.10
+    - pip >=25.0
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+
+about:
+  summary: "Runs a sequence of transcription factor analysis scripts"
+  license: "MIT"
+  home: "https://github.com/Shreya-droid/SNPoiss_bind_n_seq"
+  author: "Shreya Sharma"
+  description: |
+    This package provides a command-line interface to run groups of scripts
+    related to preprocessing, plotting, motif discovery, model fitting, and analysis.
