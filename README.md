@@ -16,7 +16,7 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 ---
 
-## 📦 Dataset for Reproducibility  
+## 📦 Dataset 
 
 ⬇️ **Download the dataset from Zenodo** to reproduce results, perform analyses, or validate methods.  
 
@@ -33,6 +33,7 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 ## 📁 Project Structure
 
+```bash
 .
 ├── abstract
 ├── conda-recipe
