@@ -22,10 +22,10 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 **🌐 Zenodo DOI:** [10.5281/zenodo.XXXXXXX]()  
 
-** Dataset Details:**  
+**Dataset Details:**  
 - Generated at the Rodríguez-Martínez Lab ([Lab Website](https://thejarmlab.weebly.com/research.html))  
 
-** Usage Instructions:**   
+**Usage Instructions:**   
 1. Download the Zenodo dataset  
 2. Place files in the folder structure indicated in this repository to reproduce all analyses
 
