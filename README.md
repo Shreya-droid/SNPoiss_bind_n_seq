@@ -31,6 +31,22 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 ---
 
+## 📁 Project Structure
+
+.
+├── abstract
+├── conda-recipe
+├── data/                 #Create data dir "data" and place all the downloaded folders/files here
+├── dist
+├── LICENSE
+├── MANIFEST.in
+├── ProBEX
+├── ProBEX_snp.egg-info
+├── README.md
+└── setup.py
+
+---
+
 ## ⚙️ Pipeline Execution Order
 
 This repository includes scripts organized into logical stages.  
