@@ -16,6 +16,21 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 ---
 
+## 📦 Dataset for Reproducibility  
+
+⬇️ **Download the dataset from Zenodo** to reproduce results, perform analyses, or validate methods.  
+
+**🌐 Zenodo DOI:** [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)  
+
+**🧪 Dataset Details:**  
+- Generated at the Rodríguez-Martínez Lab ([Lab Website](https://thejarmlab.weebly.com/research.html))  
+
+**⚙️ Usage Instructions:**   
+1. Download the Zenodo dataset  
+2. Place files in the folder structure indicated in this repository to reproduce all analyses
+
+---
+
 ## ⚙️ Pipeline Execution Order
 
 This repository includes scripts organized into logical stages.  
