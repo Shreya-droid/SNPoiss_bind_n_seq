@@ -37,7 +37,7 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 .
 ├── abstract
 ├── conda-recipe
-├── data/                 #Create data dir "data" and place all the downloaded folders/files here
+├── data/    #Create data dir "data" and place all the downloaded folders/files "NKX2-5", "GATA4", "TBX5" here
 ├── dist
 ├── LICENSE
 ├── MANIFEST.in
@@ -84,6 +84,12 @@ Follow the recommended order below for accurate and reproducible analysis.
 ---
 
 ### II. MEME (Motif Discovery)
+
+## Requirements
+
+- **Operating System:** Linux (recommended)
+- **MEME Suite:** Must be downloaded and available in the working directory
+
 
 | Step | Script | Output |
 |------|---------|---------|

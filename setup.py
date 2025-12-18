@@ -18,7 +18,11 @@ setup(
         'scikit-learn>=1.0.2',
         "scipy>=1.7.3",
         "matplotlib",
-        "seaborn"],
+        "seaborn",
+        "openpyxl",
+        "adjustText",
+        "jinja2",
+        "pylatex"],
 
     entry_points={
         'console_scripts': [
