@@ -22,7 +22,8 @@ setup(
         "openpyxl",
         "adjustText",
         "jinja2",
-        "pylatex"],
+        "pylatex",
+        "psutil`"],
 
     entry_points={
         'console_scripts': [
