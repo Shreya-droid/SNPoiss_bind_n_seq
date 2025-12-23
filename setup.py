@@ -6,7 +6,7 @@ classifiers=[
     ],
 setup(
     name='ProBEX-snp',
-    version='0.1.0',
+    version='0.1.1',
     author='Shreya Sharma, PhD student @IITR',
     author_email='shreya_s@bt.iitr.ac.in',
     description='A tool for SNP-based Poisson binding analysis on SNP-bind-n-seq sequencing data',
@@ -23,7 +23,7 @@ setup(
         "adjustText",
         "jinja2",
         "pylatex",
-        "psutil`"],
+        "psutil"],
 
     entry_points={
         'console_scripts': [

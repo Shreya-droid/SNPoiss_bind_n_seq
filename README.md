@@ -147,4 +147,4 @@ Follow the recommended order below for accurate and reproducible analysis.
 To install the PrOBEX package using **pip**, run:
 
 ```bash
-pip install ProBEX-snp
+pip install ProBEX-snp==0.1.1

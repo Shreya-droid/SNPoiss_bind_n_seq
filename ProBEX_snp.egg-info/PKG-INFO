@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: ProBEX-snp
-Version: 0.1.0
+Version: 0.1.1
 Summary: A tool for SNP-based Poisson binding analysis on SNP-bind-n-seq sequencing data
 Home-page: https://github.com/Shreya-droid/SNPoiss_bind_n_seq
 Author: Shreya Sharma, PhD student @IITR
@@ -13,6 +13,11 @@ Requires-Dist: scikit-learn>=1.0.2
 Requires-Dist: scipy>=1.7.3
 Requires-Dist: matplotlib
 Requires-Dist: seaborn
+Requires-Dist: openpyxl
+Requires-Dist: adjustText
+Requires-Dist: jinja2
+Requires-Dist: pylatex
+Requires-Dist: psutil
 Dynamic: author
 Dynamic: author-email
 Dynamic: home-page
