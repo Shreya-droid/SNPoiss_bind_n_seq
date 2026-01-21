@@ -20,7 +20,8 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 ⬇️ **Download the dataset from Zenodo** to reproduce results, perform analyses, or validate methods.  
 
-**🌐 Zenodo DOI:** [10.5281/zenodo.XXXXXXX]()  
+**🌐 Zenodo DOI:** Part I: contains data for NKX2.5 and GATA4 : [https://zenodo.org/records/17907086]
+                   Part II: contain data for TBX5: [https://zenodo.org/records/17910305]
 
 **Dataset Details:**  
 - Generated at the Rodríguez-Martínez Lab ([Lab Website](https://thejarmlab.weebly.com/research.html))  
