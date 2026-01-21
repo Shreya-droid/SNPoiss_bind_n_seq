@@ -38,7 +38,7 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 .
 ├── abstract
 ├── conda-recipe
-├── data/    #Create data dir "data" and place all the downloaded folders/files "NKX2-5", "GATA4", "TBX5" here
+├── data/    #Create data dir "data" as shown and place all the downloaded folders/files "NKX2-5", "GATA4", "TBX5" here
 ├── dist
 ├── LICENSE
 ├── MANIFEST.in
