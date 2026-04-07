@@ -1,26 +1,26 @@
-# 🧬 PrOBEX: Probabilistic Optimization of Binding via Enrichment from SELEX
+# PrOBEX: Probabilistic Optimization of Binding via Enrichment from SELEX
 
 **Article URL:** [https://doi.org/10.64898/2025.12.02.691900]
 
 ---
 
-## 📊 Graphical Overview
+## Graphical Overview
 ![Pipeline Overview](abstract/graph_abstract.png)
 
 ---
 
-## 🧠 Overview
+## Overview
 
 **PrOBEX** is a modular computational pipeline designed for **probabilistic optimization of transcription factor binding** using **SELEX (Systematic Evolution of Ligands by EXponential enrichment)** data.  
 It provides a complete suite of scripts for **data preprocessing, visualization, motif discovery, enrichment analysis, and probabilistic model fitting**.
 
 ---
 
-## 📦 Dataset 
+## Dataset 
 
-⬇️ **Download the dataset from Zenodo** to reproduce results, perform analyses, or validate methods.  
+**Download the dataset from Zenodo** to reproduce results, perform analyses, or validate methods.  
 
-**🌐 Zenodo DOI:** Part I: contains data for NKX2.5 and GATA4 : [https://zenodo.org/records/17907086]
+**Zenodo DOI:** Part I: contains data for NKX2.5 and GATA4 : [https://zenodo.org/records/17907086]
                    Part II: contain data for TBX5: [https://zenodo.org/records/17910305]
 
 **Dataset Details:**  
@@ -32,7 +32,7 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -51,7 +51,7 @@ It provides a complete suite of scripts for **data preprocessing, visualization,
 
 ---
 
-## ⚙️ Pipeline Execution Order
+## Pipeline Execution Order
 
 This repository includes scripts organized into logical stages.  
 Follow the recommended order below for accurate and reproducible analysis.
