@@ -106,7 +106,7 @@ Follow the recommended order below for accurate and reproducible analysis.
 |------|---------|---------|
 | 23 | `get_enrichment_calc_bound_unb_without_pseudocounts.py` | `bound_vs_unbound_without_pseudocounts` |
 | 24 | `combine_data_lib_unb_bound_v2.py` | `merged_df_{tf}_without_pseudocounts.csv` |
-| 25 | `get_thedenominators_iteratively.py` | `results_100` |
+| 25 | `get_thedenominators_iteratively.py` | `results_1000` |
 | 26 | `fitting_poisson_eQ_2_also_withUnb_with_bi.py` | `iteration_results_withunb_with_bi` |
 | 27 | `get_AT_GC_percent_withfitted_C_denom.py` | `updated_CORREL_with_bi.xlsx`, `rsID_sequence_percentages.xlsx` |
 | 28 | `plot_ref_alt_allele_v3_withFC.py` | `FC_table_with_bi.xlsx`, `ref_vs_alt_correlation_plot.png` |
