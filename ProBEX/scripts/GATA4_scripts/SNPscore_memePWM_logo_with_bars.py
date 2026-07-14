@@ -44,10 +44,12 @@ class SNPMotifAnalysis:
     def score_sequence(self, sequence):
         scores = []
         bins = []
-        for i in range(len(sequence) - self.pwm_matrix.shape[0] + 1):
-            window = sequence[i:i + self.pwm_matrix.shape[0]]
-            score = sum(self.pwm_matrix[j, "ACGT".index(base)] for j, base in enumerate(window))
-            scores.append(score)
+        motif_length = self.pwm_matrix.shape[0]
+        pwm_matrix = self.pwm_matrix.astype(np.float64)
+        for i in range(len(sequence) - motif_length + 1):
+            window = sequence[i:i + motif_length]
+            score = np.prod([pwm_matrix[j, "ACGT".index(base)] for j, base in enumerate(window)], dtype=np.float64)
+            scores.append(float(score))
             bins.append(i + 1)
         return scores, bins
 
