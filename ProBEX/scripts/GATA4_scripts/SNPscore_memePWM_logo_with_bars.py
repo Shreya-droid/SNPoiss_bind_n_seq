@@ -80,7 +80,7 @@ class SNPMotifAnalysis:
             alt_allele = row['AltAllele']
 
             processed_pattern = self.remove_flexible_regions(pattern)
-            processed_pattern = processed_pattern[:-1]
+            #processed_pattern = processed_pattern[:-1]
             ref_seq = re.sub(r'\[ATGC\]', ref_allele, processed_pattern, count=1)
             alt_seq = re.sub(r'\[ATGC\]', alt_allele, processed_pattern, count=1)
             ref_rc_seq = self.reverse_complement(ref_seq)
