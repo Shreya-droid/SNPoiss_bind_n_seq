@@ -109,7 +109,7 @@ Follow the recommended order below for accurate and reproducible analysis.
 | 25 | `get_thedenominators_iteratively.py` | `results_1000` |
 | 26 | `fitting_poisson_eQ_2_also_withUnb_with_bi.py` | `iteration_results_withunb_with_bi` |
 | 27 | `get_AT_GC_percent_withfitted_C_denom.py` | `updated_CORREL_with_bi.xlsx`, `rsID_sequence_percentages.xlsx` |
-| 28 | `plot_ref_alt_allele_v3_withFC.py` | `FC_table_with_bi.xlsx`, `ref_vs_alt_correlation_plot.png` |
+| 28 | `plot_ref_alt_allele_v3_withFC.py` | `FC_table_with_bi.xlsx`, `ref_vs_alt_correlation_plot.png`, TBX5increased_rsIDs.txt, TBX5decreased_rsIDs.txt |
 | 29 | `plot_ref_alt_allele_withFC_without_label.py` | `ref_vs_alt_correlation_plot_without_label.png` |
 | 30 | `combine_data_lib_unb_bound_with_psuedocounts_2point5perM_for_unbound.py` | `merged_df_{tf}_with_pseudocounts_2point5.csv` |
 | 31 | `lineplots_obs_pred_obs_shifted_2_point_5_psuedocounts.py` | `linePlots_fittedK` |
