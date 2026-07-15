@@ -40,13 +40,15 @@ class SNPMotifAnalysis:
         complement = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
         return ''.join(complement[base] for base in reversed(sequence))
 
-    def score_sequence(self, sequence):
+    def score_sequence(self, sequence, pseudocount=0.001):
         scores = []
         bins = []
         motif_length = self.pwm_matrix.shape[0]
         pwm_matrix = self.pwm_matrix.astype(np.float64)
+        pwm_matrix = pwm_matrix + pseudocount
+        pwm_matrix /= pwm_matrix.sum(axis=1, keepdims=True)
         for i in range(len(sequence) - motif_length + 1):
-            window = sequence[i:i + motif_length]
+            window = sequence[i:i + motif_length].upper()
             score = np.prod([pwm_matrix[j, "ACGT".index(base)] for j, base in enumerate(window)], dtype=np.float64)
             scores.append(float(score))
             bins.append(i + 1)
@@ -79,7 +81,7 @@ class SNPMotifAnalysis:
             alt_allele = row['AltAllele']
 
             processed_pattern = self.remove_flexible_regions(pattern)
-            processed_pattern = processed_pattern[:-1]
+            #processed_pattern = processed_pattern[:-1]
             ref_seq = re.sub(r'\[ATGC\]', ref_allele, processed_pattern, count=1)
             alt_seq = re.sub(r'\[ATGC\]', alt_allele, processed_pattern, count=1)
             ref_rc_seq = self.reverse_complement(ref_seq)
