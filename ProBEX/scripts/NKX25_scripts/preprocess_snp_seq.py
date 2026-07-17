@@ -506,7 +506,7 @@ if __name__ == "__main__":
     parser.add_argument('--txt_folder', default='./output/NKX25/txt_files', help="Folder containing TXT files")
     parser.add_argument('--csv_folder', default='./output/NKX25/csv_files', help="Folder containing CSV files")
     parser.add_argument('--output_file', default='./output/NKX25_files_count_summary.xlsx', help="Output Excel count summary file")
-    parser.add_argument('--output_folder', default='./output/NKX25/processed_files', help="Folder containing CSV files with appended rsID and chr locations and alt and ref information.")
+    parser.add_argument('--output_folder', default='./output/NKX25/processsed_files', help="Folder containing CSV files with appended rsID and chr locations and alt and ref information.")
     parser.add_argument('--transcription_factor', default='NKX25', choices=['NKX25', 'GATA4', 'TBX5'], help="Transcription factor to process")
     parser.add_argument("--fasta_alt", default='./data/CHD_40mer_fasta_alt2', help="FASTA file with alternate alleles")
     parser.add_argument("--fasta_ref", default='./data/CHD_40mer_fasta_ref2', help="FASTA file with reference alleles")
